@@ -1,4 +1,3 @@
-package machine;
 import java.util.Objects;
 import java.util.Scanner;
 
@@ -70,7 +69,7 @@ public class CoffeeMachine {
                     thing[2] -= 16;
                     thing[3]--;
                     thing[4] += 4;
-                    System.out.println("I have enough resources, making you a coffee!");
+                    System.out.println("I have enough resources, making you a coffee!\n");
                     break;
                 } else {
                     if (thing[0] - 250 < 0) {
